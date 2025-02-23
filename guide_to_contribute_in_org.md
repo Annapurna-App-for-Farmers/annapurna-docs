@@ -57,27 +57,7 @@ git push origin feat/api-15
 gh pr create --reviewer @api-maintainers --base main
 ```
 
-**Key Benefits for Your Project:**
 
-1. **Traceability**  
-   Every change linked to:
-   - Specific repository (`mlops`/`api` prefix)
-   - Tracked GitHub issue (#42)
-   - Team responsibility (@tech-leads)
-
-2. **Safety Nets**  
-   Branch protection rules from previous setup will:
-   - Require 2 approvals 
-   - Run CI/CD pipelines 
-   - Prevent direct pushes to main
-
-3. **Scalability**  
-   When you have 50+ contributors:
-   ```text
-   feat/app-302      Mobile dark mode 
-   fix/mlops-881     TensorFlow 2.16 compat
-   docs/infra-12    AWS deployment guide
-   ```
 
 **Visual Workflow:**
 
@@ -93,4 +73,4 @@ sequenceDiagram
     GitHub->>Main: Merge When All Checks Pass
 ```
 
-This follows Microsoft's Git branching guidance ([Search Result 1](https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops)) while adapting to your multi-repo structure. The key is maintaining atomic changes per branch/PR while keeping main always deployable.
+This follows Microsoft's Git branching guidance ([Search Result 1](https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops)) 

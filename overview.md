@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Annapurna Decision Support System
 
 **Organization Purpose**: agricultural intelligence system optimizing farming decisions through predictive analytics and real-time market data.

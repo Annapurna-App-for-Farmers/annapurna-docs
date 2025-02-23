@@ -3,7 +3,7 @@
 ```markdown
 # Annapurna Decision Support System
 
-**Organization Purpose**: Open-source agricultural intelligence system optimizing farming decisions through predictive analytics and real-time market data.
+**Organization Purpose**: agricultural intelligence system optimizing farming decisions through predictive analytics and real-time market data.
 
 ## Core Repositories
 
@@ -107,22 +107,8 @@ graph TD
     B --> E[#incidents Slack]
 ```
 
-4. **License Compliance**
-- Core: AGPLv3 
-If your project uses third-party dependencies with conflicting licenses like GPL components you must add them here:
 
-## Third-Party Licenses
-
-This project uses the following third-party libraries:
-
-Library Name | License Type 
--------------|-------------
-TensorFlow   | Apache 2.0  
-PostGIS      | GPLv2       
-React Native | MIT         
-
-*Follow [7] for complete license template*
-
+    
 ## Contribution Workflow
 
 ```bash
@@ -132,7 +118,4 @@ git commit -sm "feat([repo]): descriptive message (#123)"
 gh pr create --reviewer @tech-leads 
 ```
 
-Adheres to Conventional Commits spec [3][7]
-```
 
-This structure follows GitHub's organizational best practices from [6] while incorporating MLOps-specific considerations from enterprise patterns . The technical writing style aligns with search result recommendations [1][7] using clear sectioning and actionable content.
